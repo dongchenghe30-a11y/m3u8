@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://m3u8-player.pages.dev/sitemap.xml
+Sitemap: https://m3u8.okxxu.com/sitemap.xml
