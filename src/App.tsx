@@ -65,13 +65,6 @@ function App() {
     window.scrollTo(0, 0)
   }
 
-  const openBlogPost = (slug: string) => {
-    setPage('blog-post')
-    setBlogSlug(slug)
-    window.location.hash = `blog-${slug}`
-    window.scrollTo(0, 0)
-  }
-
   const goHome = () => {
     setPage('home')
     window.location.hash = ''

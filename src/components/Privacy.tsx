@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 export function Privacy() {
   const { t } = useTranslation()
 
-  const content = t('privacy.content', { returnObjects: true }) as Record<string, string>
+  const content: Record<string, string> = {}
 
   return (
     <div className="min-h-screen bg-gray-50">

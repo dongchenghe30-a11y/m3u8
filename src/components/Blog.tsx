@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { ArrowLeft, Search, FileText, ExternalLink } from 'lucide-react'
+import { ArrowLeft, FileText } from 'lucide-react'
 
 interface BlogProps {
   onBack: () => void
