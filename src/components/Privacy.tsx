@@ -3,8 +3,6 @@ import { useTranslation } from 'react-i18next'
 export function Privacy() {
   const { t } = useTranslation()
 
-  const content: Record<string, string> = {}
-
   return (
     <div className="min-h-screen bg-gray-50">
       <header className="sticky top-0 z-50 h-14 bg-white border-b border-gray-200 flex items-center">
